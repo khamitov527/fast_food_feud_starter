@@ -1,10 +1,11 @@
 import * as React from "react"
+import { appInfo } from "../../constants"
 import "./Instructions.css"
 
 export function Instructions(props) {
   return (
     <aside className="instructions">
-      <p></p>
+      <p>{appInfo.instructions.start}</p>
     </aside>
   )
 }
